@@ -1,7 +1,8 @@
 
 import './App.css'
 import Navbaragain from './components/Navbaragain/Navbaragain'
-import Navbar from './components/Navbar/Navbar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
+//import Navbar from './components/Navbar/Navbar'
 
 function App() {
   
@@ -9,8 +10,8 @@ function App() {
   return (
     <>
      <Navbaragain></Navbaragain>
-     <Navbar></Navbar>
-     
+     {/* <Navbar></Navbar> */}
+     <PriceOptions></PriceOptions>
 
     
 
